@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)http://127.0.0.1:5500/Final%20Project/lulucafe.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Lulu&#39;scafe_files/lulucafe.css">
+    <link href="./Lulu&#39;scafe_files/css2" rel="stylesheet">
+    <title>Lulu'scafe</title>
+</head>
+<body>
+    <header>
+        <h5>Lulu's Cafe</h5>
+        <div class="left-topheader">
+            <ul class="left-topbar">
+                <li>Our Story</li>
+                <li>Menu</li>
+                <li>Gallery</li>
+                <li>Bookings</li>
+                <li class="contactways">
+                    <img src="./Lulu&#39;scafe_files/59439.png" alt="facebooklogo">
+                    <img src="./Lulu&#39;scafe_files/87390.png" alt="instagramlogo">
+                    </li>
+            </ul>
+        </div>
+    </header>
+<main>
+   <div class="funtions">
+    <h1>Our Story</h1>
+    <h1>Menu</h1>
+    <h1>Gallery</h1>
+    <h1>Bookings</h1>
+   </div>
+
+  <div class="location">
+    <p>Location: Federation Square, Melbourne VIC 3004 Australia. 
+    A creative modern industrial space with lots of fun and arts </p>
+    <button class="bookatable"></button>
+  </div>
+
+  
+  <div class="intro">
+    <p> We combine food, coffee and art together with local food and local artist in Melbourne. 
+        <a href="http://127.0.0.1:5500/Final%20Project/lulucafe.html#">Explore more about our stor</a> We hope you could explore more creative stuffs with us.
+        Let's check it out together!
+    </p>
+    <img class="cafe-2" src="http://127.0.0.1:5500/Final%20Project/lulucafe.html" alt="">
+  </div>
+
+
+  <div class="gallery">
+    <h1>Gallery</h1>
+    <p> Explore our local artist in Melbourne</p>
+  </div>
+ <div class="subscribe">
+   <p> Subscribe to Our Newsletter</p>
+   <p> Sign up to receive news and updates</p>
+   <input type="email" placeholder="Your email">
+   <input type="submit">
+   <eml> <script></script></eml>
+
+ </div>
+
+
+</main>
+
+<footer class="contacts">
+    <h6>Lulu's cafe </h6>
+    <h6>Federation Square Melbourne VIC 3004</h6>
+    <div class="contactme">
+        <p>EML: lulucafe@gmail</p>
+        <p>P:03 238430439</p>
+
+    </div>
+</footer>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
